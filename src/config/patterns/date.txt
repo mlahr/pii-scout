@@ -1,0 +1,37 @@
+# Date patterns for PII detection
+
+# ISO 8601 format (YYYY-MM-DD)
+\b\d{4}-\d{2}-\d{2}\b
+
+# US format (MM/DD/YYYY, M/D/YYYY)
+\b\d{1,2}/\d{1,2}/\d{4}\b
+
+# US format with dashes (MM-DD-YYYY)
+\b\d{1,2}-\d{1,2}-\d{4}\b
+
+# European format (DD/MM/YYYY, DD.MM.YYYY)
+\b\d{1,2}\.\d{1,2}\.\d{4}\b
+
+# Short year formats (MM/DD/YY, DD/MM/YY)
+\b\d{1,2}/\d{1,2}/\d{2}\b
+\b\d{1,2}-\d{1,2}-\d{2}\b
+\b\d{1,2}\.\d{1,2}\.\d{2}\b
+
+# Month name formats (January 1, 2020 or January 1 2020)
+\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b
+
+# Abbreviated month (Jan 1, 2020 or Jan. 1, 2020)
+\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{1,2},?\s+\d{4}\b
+
+# Day first with month name (1 January 2020, 1st January 2020)
+\b\d{1,2}(?:st|nd|rd|th)?\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b
+
+# Day first with abbreviated month (1 Jan 2020)
+\b\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{4}\b
+
+# Month and year only (January 2020, Jan 2020)
+\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b
+\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{4}\b
+
+# Compact numeric (YYYYMMDD, MMDDYYYY)
+\b(?:19|20)\d{6}\b

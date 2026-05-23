@@ -1,0 +1,39 @@
+# Phone number patterns for PII detection
+
+# US/Canada format with optional country code
+# (123) 456-7890, 123-456-7890, 123.456.7890, 123 456 7890
+(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}
+
+# US format with extension
+(?:\+?1[-. ]?)?\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}(?:\s*(?:ext|x|ext\.)\s*\d{1,5})?
+
+# International format with country code
+\+\d{1,4}[-. ]?\(?\d{1,4}\)?[-. ]?\d{1,4}[-. ]?\d{1,4}(?:[-. ]?\d{1,4})?
+
+# UK format (020 1234 5678, +44 20 1234 5678)
+\+?44[-. ]?\d{2,4}[-. ]?\d{3,4}[-. ]?\d{3,4}
+
+# Generic international (country code + number)
+\+\d{1,4}[-. ]\d{4,6}[-. ]\d{4}
+
+# 10-digit US number without formatting
+\b\d{10}\b
+
+# Toll-free numbers (1-800-XXX-XXXX, 800-XXX-XXXX)
+\b1?[-. ]?8(?:00|33|44|55|66|77|88)[-. ]?\d{3}[-. ]?\d{4}\b
+
+# Phone with letters (1-800-FLOWERS style) - captures the numeric part
+\b1?[-. ]?8(?:00|33|44|55|66|77|88)[-. ]?[A-Z0-9]{3}[-. ]?[A-Z0-9]{4}\b
+
+# European formats
+# Germany (+49 123 456789)
+\+49[-. ]?\d{2,5}[-. ]?\d{5,10}
+
+# France (+33 1 23 45 67 89)
+\+33[-. ]?\d[-. ]?\d{2}[-. ]?\d{2}[-. ]?\d{2}[-. ]?\d{2}
+
+# Australia (+61 X XXXX XXXX)
+\+61[-. ]?\d[-. ]?\d{4}[-. ]?\d{4}
+
+# Generic with parentheses for area code
+\(\d{2,4}\)[-. ]?\d{3,4}[-. ]?\d{3,4}

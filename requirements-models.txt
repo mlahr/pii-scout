@@ -1,0 +1,9 @@
+# ML dependencies for models image
+# These are heavy and rarely change - kept separate for Docker layer caching
+# Note: torch is installed separately in Dockerfile.models with CUDA support
+
+spacy>=3.0
+transformers>=4.44.0
+sentencepiece
+spacy-transformers
+spacy-curated-transformers

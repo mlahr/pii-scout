@@ -1,0 +1,34 @@
+# Birthdate context keywords
+
+# Common labels
+dob
+d.o.b.
+d.o.b
+date of birth
+birth date
+birthdate
+birthday
+birth
+
+# Form labels
+born
+born on
+date born
+birth:
+dob:
+
+# Age-related
+age
+years old
+yrs old
+year of birth
+birth year
+
+# Medical/official context
+patient dob
+member dob
+insured dob
+subscriber dob
+dependent dob
+applicant dob
+claimant dob

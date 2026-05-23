@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "model_profile": "accurate",
+    "language": "en",
+    "chars": 401
+  },
+  "entities": [
+    {
+      "type": "PERSON",
+      "text": "Jane Doe",
+      "start": 18,
+      "end": 26,
+      "score": 0.8
+    },
+    {
+      "type": "ADDRESS",
+      "text": "123 Maple Street, Springfield, IL 62704.",
+      "start": 41,
+      "end": 81,
+      "score": 0.8
+    },
+    {
+      "type": "ADDRESS",
+      "text": "123 Maple Street, Springfield, IL 62704. You c",
+      "start": 41,
+      "end": 87,
+      "score": 0.8
+    },
+    {
+      "type": "LOCATION",
+      "text": "Springfield",
+      "start": 59,
+      "end": 70,
+      "score": 0.75
+    },
+    {
+      "type": "LOCATION",
+      "text": "IL",
+      "start": 72,
+      "end": 74,
+      "score": 0.75
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "text": "(555) 123-4567",
+      "start": 102,
+      "end": 116,
+      "score": 0.95
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "text": "555.999.8888",
+      "start": 131,
+      "end": 143,
+      "score": 0.95
+    },
+    {
+      "type": "SSN",
+      "text": "123-45-6789",
+      "start": 174,
+      "end": 185,
+      "score": 0.99
+    },
+    {
+      "type": "BIRTHDATE",
+      "text": "1990-01-01",
+      "start": 201,
+      "end": 211,
+      "score": 0.85
+    },
+    {
+      "type": "PHONE_NUMBER",
+      "text": "1234567890",
+      "start": 254,
+      "end": 264,
+      "score": 0.85
+    },
+    {
+      "type": "ACCOUNT_NUMBER",
+      "text": "1234567890",
+      "start": 254,
+      "end": 264,
+      "score": 0.9
+    },
+    {
+      "type": "SSN",
+      "text": "987654321",
+      "start": 275,
+      "end": 284,
+      "score": 0.95
+    },
+    {
+      "type": "ACCOUNT_NUMBER",
+      "text": "987654321",
+      "start": 275,
+      "end": 284,
+      "score": 0.9
+    },
+    {
+      "type": "PERSON",
+      "text": "John Smith",
+      "start": 301,
+      "end": 311,
+      "score": 0.8
+    },
+    {
+      "type": "ADDRESS",
+      "text": "456 Oak Dr. Apt 2B, Metropolis, NY 10001.",
+      "start": 315,
+      "end": 356,
+      "score": 0.7
+    },
+    {
+      "type": "ADDRESS",
+      "text": "456 Oak Dr. Apt 2B, Metropolis, NY 10001. His DO",
+      "start": 315,
+      "end": 363,
+      "score": 0.7
+    },
+    {
+      "type": "LOCATION",
+      "text": "Metropolis",
+      "start": 335,
+      "end": 345,
+      "score": 0.75
+    },
+    {
+      "type": "BIRTHDATE",
+      "text": "Jan 15, 1985",
+      "start": 368,
+      "end": 380,
+      "score": 0.85
+    },
+    {
+      "type": "ACCOUNT_NUMBER",
+      "text": "55667788",
+      "start": 391,
+      "end": 399,
+      "score": 0.9
+    }
+  ]
+}

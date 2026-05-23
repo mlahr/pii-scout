@@ -1,0 +1,2 @@
+{"pdf": "clean_stats.pdf", "status": "ok", "contains_pii": false, "stats": {"total_pages": 0, "total_paragraphs": 0}, "timing_ms": {"extract": 967.2, "scan": 0.1, "total": 967.3}}
+{"pdf": "stats_pii.pdf", "status": "ok", "contains_pii": false, "stats": {"total_pages": 0, "total_paragraphs": 0}, "timing_ms": {"extract": 14.0, "scan": 0.1, "total": 14.1}}

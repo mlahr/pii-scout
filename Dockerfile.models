@@ -1,0 +1,25 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# Install build dependencies for compiled packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install PyTorch with bundled CUDA runtime (avoids nvidia/cuda base image licensing)
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cu121
+
+# Install ML dependencies only (heavy, rarely change)
+COPY requirements-models.txt .
+RUN python -m pip install --no-cache-dir -r requirements-models.txt
+
+# Download SpaCy models during build (baked into image)
+RUN python -m spacy download en_core_web_lg && \
+    python -m spacy download en_core_web_trf
+
+# Download Piiranha model during build for faster startup
+RUN python -c "from transformers import pipeline, AutoTokenizer; \
+    AutoTokenizer.from_pretrained('iiiorg/piiranha-v1-detect-personal-information'); \
+    pipeline('token-classification', model='iiiorg/piiranha-v1-detect-personal-information')"

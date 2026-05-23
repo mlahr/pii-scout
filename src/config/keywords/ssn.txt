@@ -1,0 +1,31 @@
+# Social Security Number context keywords
+
+# Common abbreviations
+ssn
+ss#
+ss #
+soc sec
+soc. sec.
+social security
+social security number
+social security no
+social security #
+
+# Form labels
+ssn:
+social:
+security:
+tax id
+tax identification
+taxpayer id
+taxpayer identification
+tin
+itin
+individual taxpayer
+
+# Government/official context
+ssa
+social security administration
+social security card
+social security benefits
+medicare number

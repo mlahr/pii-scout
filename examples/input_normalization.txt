@@ -1,0 +1,4 @@
+Split date: 19\n90-01-01
+Split phone: 555-123-\n4567
+Split SSN: 123-45-\n6789
+Split Account: 1234\n5678 (Context: account)

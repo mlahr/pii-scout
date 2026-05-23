@@ -1,0 +1,79 @@
+# Address context keywords
+
+# Common labels
+address
+addr
+addr.
+address:
+
+# Address types
+street
+street address
+mailing
+mailing address
+physical
+physical address
+home
+home address
+residence
+residential
+residential address
+business
+business address
+work
+work address
+office
+office address
+billing
+billing address
+shipping
+shipping address
+ship to
+deliver to
+delivery address
+
+# Location context
+live at
+lives at
+located at
+located
+location
+resides
+resides at
+residing
+residing at
+
+# Address components
+apt
+apt.
+apartment
+unit
+suite
+ste
+ste.
+floor
+fl
+fl.
+building
+bldg
+room
+rm
+
+# Postal
+po box
+p.o. box
+post office box
+postal
+postal address
+zip
+zip code
+zipcode
+postal code
+
+# Geographic
+city
+state
+county
+country
+province
+region

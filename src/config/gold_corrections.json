@@ -1,0 +1,526 @@
+{
+  "remove_entities": [
+    {
+      "id": "ai4privacy_389993",
+      "type": "BIRTHDATE",
+      "start": 50,
+      "end": 60
+    },
+    {
+      "id": "ai4privacy_261703",
+      "type": "BIRTHDATE",
+      "start": 71,
+      "end": 79
+    },
+    {
+      "id": "ai4privacy_299403",
+      "type": "BIRTHDATE",
+      "start": 275,
+      "end": 285
+    },
+    {
+      "id": "ai4privacy_299408",
+      "type": "BIRTHDATE",
+      "start": 239,
+      "end": 249
+    },
+    {
+      "id": "ai4privacy_299413",
+      "type": "BIRTHDATE",
+      "start": 231,
+      "end": 250
+    },
+    {
+      "id": "ai4privacy_299428",
+      "type": "BIRTHDATE",
+      "start": 241,
+      "end": 249
+    },
+    {
+      "id": "ai4privacy_299438",
+      "type": "BIRTHDATE",
+      "start": 220,
+      "end": 233
+    },
+    {
+      "id": "ai4privacy_301463",
+      "type": "BIRTHDATE",
+      "start": 230,
+      "end": 244
+    },
+    {
+      "id": "ai4privacy_203748",
+      "type": "ADDRESS",
+      "start": 25,
+      "end": 29
+    },
+    {
+      "id": "ai4privacy_141648",
+      "type": "ADDRESS",
+      "start": 81,
+      "end": 84
+    },
+    {
+      "id": "ai4privacy_203778",
+      "type": "ADDRESS",
+      "start": 83,
+      "end": 87
+    },
+    {
+      "id": "ai4privacy_293523",
+      "type": "ADDRESS",
+      "start": 20,
+      "end": 29
+    },
+    {
+      "id": "ai4privacy_306508",
+      "type": "ADDRESS",
+      "start": 24,
+      "end": 28
+    },
+    {
+      "id": "ai4privacy_333733",
+      "type": "ADDRESS",
+      "start": 88,
+      "end": 91
+    },
+    {
+      "id": "ai4privacy_333733",
+      "type": "ADDRESS",
+      "start": 96,
+      "end": 101
+    },
+    {
+      "id": "ai4privacy_333738",
+      "type": "ADDRESS",
+      "start": 101,
+      "end": 104
+    },
+    {
+      "id": "ai4privacy_333738",
+      "type": "ADDRESS",
+      "start": 106,
+      "end": 111
+    },
+    {
+      "id": "ai4privacy_333753",
+      "type": "ADDRESS",
+      "start": 79,
+      "end": 82
+    },
+    {
+      "id": "ai4privacy_333753",
+      "type": "ADDRESS",
+      "start": 84,
+      "end": 89
+    },
+    {
+      "id": "ai4privacy_377733",
+      "type": "ADDRESS",
+      "start": 18,
+      "end": 23
+    },
+    {
+      "id": "ai4privacy_406693",
+      "type": "ADDRESS",
+      "start": 61,
+      "end": 69
+    },
+    {
+      "id": "ai4privacy_425508",
+      "type": "ADDRESS",
+      "start": 53,
+      "end": 59
+    },
+    {
+      "id": "ai4privacy_444668",
+      "type": "ADDRESS",
+      "start": 147,
+      "end": 150
+    },
+    {
+      "id": "ai4privacy_389998",
+      "type": "BIRTHDATE",
+      "start": 91,
+      "end": 110
+    },
+    {
+      "id": "ai4privacy_399793",
+      "type": "BIRTHDATE",
+      "start": 96,
+      "end": 113
+    },
+    {
+      "id": "ai4privacy_513333",
+      "type": "BIRTHDATE",
+      "start": 50,
+      "end": 69
+    },
+    {
+      "id": "ai4privacy_513338",
+      "type": "BIRTHDATE",
+      "start": 13,
+      "end": 29
+    },
+    {
+      "id": "ai4privacy_513343",
+      "type": "BIRTHDATE",
+      "start": 29,
+      "end": 39
+    },
+    {
+      "id": "ai4privacy_114768",
+      "type": "BIRTHDATE",
+      "start": 79,
+      "end": 89
+    },
+    {
+      "id": "ai4privacy_114778",
+      "type": "BIRTHDATE",
+      "start": 63,
+      "end": 73
+    },
+    {
+      "id": "ai4privacy_114793",
+      "type": "BIRTHDATE",
+      "start": 71,
+      "end": 82
+    },
+    {
+      "id": "ai4privacy_114803",
+      "type": "BIRTHDATE",
+      "start": 83,
+      "end": 98
+    },
+    {
+      "id": "ai4privacy_123843",
+      "type": "BIRTHDATE",
+      "start": 95,
+      "end": 105
+    },
+    {
+      "id": "ai4privacy_123848",
+      "type": "BIRTHDATE",
+      "start": 41,
+      "end": 60
+    },
+    {
+      "id": "ai4privacy_123853",
+      "type": "BIRTHDATE",
+      "start": 30,
+      "end": 40
+    },
+    {
+      "id": "ai4privacy_123858",
+      "type": "BIRTHDATE",
+      "start": 34,
+      "end": 52
+    },
+    {
+      "id": "ai4privacy_123863",
+      "type": "BIRTHDATE",
+      "start": 37,
+      "end": 48
+    },
+    {
+      "id": "ai4privacy_123868",
+      "type": "BIRTHDATE",
+      "start": 48,
+      "end": 58
+    },
+    {
+      "id": "ai4privacy_123873",
+      "type": "BIRTHDATE",
+      "start": 41,
+      "end": 60
+    },
+    {
+      "id": "ai4privacy_123878",
+      "type": "BIRTHDATE",
+      "start": 43,
+      "end": 52
+    },
+    {
+      "id": "ai4privacy_159083",
+      "type": "BIRTHDATE",
+      "start": 79,
+      "end": 98
+    },
+    {
+      "id": "ai4privacy_248388",
+      "type": "BIRTHDATE",
+      "start": 18,
+      "end": 36
+    },
+    {
+      "id": "ai4privacy_248413",
+      "type": "BIRTHDATE",
+      "start": 18,
+      "end": 37
+    },
+    {
+      "id": "ai4privacy_373923",
+      "type": "BIRTHDATE",
+      "start": 165,
+      "end": 182
+    },
+    {
+      "id": "ai4privacy_400723",
+      "type": "BIRTHDATE",
+      "start": 126,
+      "end": 136
+    },
+    {
+      "id": "ai4privacy_418823",
+      "type": "BIRTHDATE",
+      "start": 57,
+      "end": 76
+    },
+    {
+      "id": "ai4privacy_446518",
+      "type": "BIRTHDATE",
+      "start": 25,
+      "end": 35
+    },
+    {
+      "id": "ai4privacy_446528",
+      "type": "BIRTHDATE",
+      "start": 41,
+      "end": 51
+    },
+    {
+      "id": "ai4privacy_479373",
+      "type": "BIRTHDATE",
+      "start": 137,
+      "end": 148
+    },
+    {
+      "id": "ai4privacy_479383",
+      "type": "BIRTHDATE",
+      "start": 27,
+      "end": 45
+    },
+    {
+      "id": "ai4privacy_479388",
+      "type": "BIRTHDATE",
+      "start": 30,
+      "end": 40
+    },
+    {
+      "id": "ai4privacy_399778",
+      "type": "BIRTHDATE",
+      "start": 18,
+      "end": 28
+    },
+    {
+      "id": "ai4privacy_399783",
+      "type": "BIRTHDATE",
+      "start": 77,
+      "end": 94
+    },
+    {
+      "id": "ai4privacy_399803",
+      "type": "BIRTHDATE",
+      "start": 111,
+      "end": 127
+    },
+    {
+      "id": "ai4privacy_400713",
+      "type": "BIRTHDATE",
+      "start": 101,
+      "end": 120
+    },
+    {
+      "id": "ai4privacy_261718",
+      "type": "BIRTHDATE",
+      "start": 57,
+      "end": 67
+    },
+    {
+      "id": "ai4privacy_261733",
+      "type": "BIRTHDATE",
+      "start": 49,
+      "end": 59
+    },
+    {
+      "id": "ai4privacy_261738",
+      "type": "BIRTHDATE",
+      "start": 62,
+      "end": 81
+    },
+    {
+      "id": "ai4privacy_299418",
+      "type": "BIRTHDATE",
+      "start": 188,
+      "end": 207
+    },
+    {
+      "id": "ai4privacy_299423",
+      "type": "BIRTHDATE",
+      "start": 214,
+      "end": 233
+    },
+    {
+      "id": "ai4privacy_299433",
+      "type": "BIRTHDATE",
+      "start": 203,
+      "end": 213
+    },
+    {
+      "id": "ai4privacy_316893",
+      "type": "BIRTHDATE",
+      "start": 5,
+      "end": 15
+    },
+    {
+      "id": "ai4privacy_399773",
+      "type": "BIRTHDATE",
+      "start": 18,
+      "end": 28
+    },
+    {
+      "id": "ai4privacy_399788",
+      "type": "BIRTHDATE",
+      "start": 141,
+      "end": 160
+    },
+    {
+      "id": "ai4privacy_399808",
+      "type": "BIRTHDATE",
+      "start": 104,
+      "end": 123
+    },
+    {
+      "id": "ai4privacy_400738",
+      "type": "BIRTHDATE",
+      "start": 145,
+      "end": 164
+    },
+    {
+      "id": "ai4privacy_441588",
+      "type": "BIRTHDATE",
+      "start": 72,
+      "end": 91
+    },
+    {
+      "id": "ai4privacy_126253",
+      "type": "BIRTHDATE",
+      "start": 49,
+      "end": 68
+    },
+    {
+      "id": "ai4privacy_139543",
+      "type": "BIRTHDATE",
+      "start": 64,
+      "end": 74
+    },
+    {
+      "id": "ai4privacy_159063",
+      "type": "BIRTHDATE",
+      "start": 78,
+      "end": 88
+    },
+    {
+      "id": "ai4privacy_159068",
+      "type": "BIRTHDATE",
+      "start": 126,
+      "end": 136
+    },
+    {
+      "id": "ai4privacy_159078",
+      "type": "BIRTHDATE",
+      "start": 67,
+      "end": 84
+    },
+    {
+      "id": "ai4privacy_159093",
+      "type": "BIRTHDATE",
+      "start": 65,
+      "end": 75
+    },
+    {
+      "id": "ai4privacy_167938",
+      "type": "BIRTHDATE",
+      "start": 20,
+      "end": 30
+    },
+    {
+      "id": "ai4privacy_188428",
+      "type": "BIRTHDATE",
+      "start": 138,
+      "end": 156
+    },
+    {
+      "id": "ai4privacy_188443",
+      "type": "BIRTHDATE",
+      "start": 169,
+      "end": 188
+    },
+    {
+      "id": "ai4privacy_306478",
+      "type": "BIRTHDATE",
+      "start": 43,
+      "end": 53
+    },
+    {
+      "id": "ai4privacy_321433",
+      "type": "BIRTHDATE",
+      "start": 61,
+      "end": 80
+    },
+    {
+      "id": "ai4privacy_331178",
+      "type": "BIRTHDATE",
+      "start": 262,
+      "end": 272
+    },
+    {
+      "id": "ai4privacy_331198",
+      "type": "BIRTHDATE",
+      "start": 131,
+      "end": 150
+    },
+    {
+      "id": "ai4privacy_363513",
+      "type": "BIRTHDATE",
+      "start": 128,
+      "end": 147
+    },
+    {
+      "id": "ai4privacy_373938",
+      "type": "BIRTHDATE",
+      "start": 188,
+      "end": 198
+    },
+    {
+      "id": "ai4privacy_373943",
+      "type": "BIRTHDATE",
+      "start": 170,
+      "end": 181
+    },
+    {
+      "id": "ai4privacy_373963",
+      "type": "BIRTHDATE",
+      "start": 193,
+      "end": 207
+    },
+    {
+      "id": "ai4privacy_387423",
+      "type": "BIRTHDATE",
+      "start": 91,
+      "end": 101
+    },
+    {
+      "id": "ai4privacy_389138",
+      "type": "BIRTHDATE",
+      "start": 20,
+      "end": 39
+    },
+    {
+      "id": "ai4privacy_479378",
+      "type": "BIRTHDATE",
+      "start": 90,
+      "end": 107
+    }
+  ]
+}

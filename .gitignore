@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+*.env
+pii_config.yaml
+
+# Generated pipeline outputs and corpora
+data/
+eval_report/
+reference_data/
+runtime_data/
+splits/
+annotation_set/
+*.log
+
+# Local editor/OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# Agent/local assistant state
+.aider*
+.claude/
+.junie/

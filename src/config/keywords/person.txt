@@ -1,0 +1,53 @@
+# Titles and honorifics
+name
+mr
+mrs
+ms
+miss
+dr
+prof
+sir
+madam
+
+# Labels
+patient
+client
+customer
+employee
+applicant
+member
+resident
+owner
+tenant
+beneficiary
+policyholder
+insured
+claimant
+defendant
+plaintiff
+witness
+signatory
+author
+sender
+recipient
+contact
+representative
+guardian
+spouse
+dependent
+
+# Form fields
+full name
+first name
+last name
+surname
+given name
+family name
+middle name
+maiden name
+printed name
+signature
+signed by
+authorized by
+prepared by
+submitted by

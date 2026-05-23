@@ -1,0 +1,83 @@
+# Account number context keywords
+
+# General account
+account
+account number
+account no
+account #
+acct
+acct.
+acct #
+acct no
+a/c
+account:
+
+# Banking
+bank
+bank account
+checking
+checking account
+savings
+savings account
+routing
+routing number
+aba
+aba number
+transit
+transit number
+
+# International banking
+iban
+swift
+swift code
+bic
+bic code
+sort code
+
+# Credit/debit
+card number
+card #
+credit card
+debit card
+visa
+mastercard
+amex
+american express
+discover
+
+# Investment/brokerage
+brokerage
+investment account
+portfolio
+portfolio number
+securities
+
+# Insurance
+policy
+policy number
+policy #
+claim
+claim number
+claim #
+member id
+member number
+subscriber id
+group number
+group #
+
+# Utility/service
+customer id
+customer number
+customer #
+reference
+reference number
+ref
+ref #
+confirmation
+confirmation number
+order
+order number
+order #
+invoice
+invoice number
+invoice #

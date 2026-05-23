@@ -1,0 +1,61 @@
+# Phone number context keywords
+
+# Common labels
+phone
+phone number
+phone no
+phone #
+ph
+ph#
+tel
+tel.
+telephone
+telephone number
+
+# Mobile/cell
+mobile
+mobile phone
+mobile number
+mobile #
+cell
+cell phone
+cell number
+cellphone
+cellular
+
+# Business phone types
+fax
+fax number
+fax #
+facsimile
+office
+office phone
+work
+work phone
+home
+home phone
+direct
+direct line
+extension
+ext
+ext.
+
+# Contact context
+contact
+contact number
+contact phone
+call
+reach
+callback
+call back
+primary phone
+secondary phone
+alternate phone
+emergency contact
+emergency phone
+
+# International
+intl
+international
+country code
+area code
